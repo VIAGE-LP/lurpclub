@@ -1,6 +1,10 @@
 {
   "selectType": null,
-  "promotionCode": ["", "lurpclub", ""],
+  "promotionCode": [
+    "",
+    "lurpclub",
+    ""
+  ],
   "promotionCodeMmemo": [
     "成套的促編(不需要則留空)",
     "內衣的促編(不需要則留空)",
@@ -13,7 +17,10 @@
   ],
   "changeSizeDisplay": "1",
   "maxquantity": 10,
-  "categories": ["內衣", "內褲"],
+  "categories": [
+    "內衣",
+    "內褲"
+  ],
   "productsList": [
     {
       "size": [
@@ -56,7 +63,7 @@
           "code": "4560449971942"
         }
       ],
-      "color": "深邃紅(聖誕限定優惠色)",
+      "color": "深邃紅(初上市數量有限)",
       "colorCode": "#000000",
       "category": "內衣"
     },
@@ -131,7 +138,7 @@
           "code": "4560449971232"
         }
       ],
-      "color": "古典綠(聖誕限定優惠色)",
+      "color": "古典綠",
       "colorCode": "#000000",
       "category": "內衣"
     },
@@ -139,15 +146,14 @@
       "size": [
         {
           "S": "0",
-          "code": "4560449973137",
-          "text": "（預購）"
+          "code": "4560449973137"
         },
         {
           "M": "0",
           "code": "4560449973144"
         }
       ],
-      "color": "優雅白(聖誕限定優惠色)",
+      "color": "優雅白",
       "colorCode": "#000000",
       "category": "內衣"
     },
