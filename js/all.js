@@ -8,13 +8,13 @@ $(document).ready(function () {
     });
 
     // 點01_Xmas_btn會連到並"展開"id="Xmas"
-    $('.Xmas_btn').click(function (e) {
-        e.preventDefault();
-        $(".Xmas").attr("style", "display:block;");
-        $('html , body').animate({
-            scrollTop: $('#Xmas').offset().top,
-        }, 900);
-    });
+    // $('.Xmas_btn').click(function (e) {
+    //     e.preventDefault();
+    //     $(".Xmas").attr("style", "display:block;");
+    //     $('html , body').animate({
+    //         scrollTop: $('#Xmas').offset().top,
+    //     }, 900);
+    // });
 
     // $("#wh-call-to-action").removeAttr("wh-click");
     $("#wh-call-to-action").removeClass("wh-animation-in");
