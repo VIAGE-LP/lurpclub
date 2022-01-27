@@ -255,6 +255,47 @@ img.anniversary_2{
     font-size: 14px;
 }
 
+.luckywheel_box{
+    position: relative;
+    width:640px;
+    margin:0 auto;
+}
+.luckywheel_box .luckywheel_text{
+    position: absolute;
+    width: 70%;
+    top: 15%;
+    right: 4%;
+}
+.luckywheel_box .luckywheel_wheel{
+    position: absolute;
+    width: 90%;
+    left: 3%;
+    top: 38%;
+}
+.luckywheel_box .luckywheel_btn{
+    position: absolute;
+    width: 24%;
+    top: 55%;
+    left: 36%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .luckywheel_box{
+        width:100%;
+    }
+    .luckywheel_box .luckywheel_wheel{
+        width: 80%;
+        left: 3%;
+        top: 38%;
+    }
+    .luckywheel_box .luckywheel_btn{
+        width: 22%;
+        top: 53%;
+        left: 32%;
+    }
+}
+
 .SP{
     display: none;
 }

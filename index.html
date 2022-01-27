@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>自選LUNA新春福袋57折！會員獨享｜養成渾圓美胸｜好運"圓圓"一整年</title>
+    <title>LUNA開春轉好運！會員獨享折上加折｜天天穿養成渾圓美胸｜中獎率100%！</title>
     <meta name="Description"
         content="日本專利設計小胸福星，輕鬆打造美胸ω歐美伽曲線，美胸不再是大CUP的專利！穿著錯誤尺寸的內衣或是受地心引力影響都會使ω歐美伽曲線變形。只是穿著Luna 晚安內衣改善了ω歐美伽曲線的長度，視覺上的效果就完全不一樣！？鈴木奈奈穿著3個月後成功讓A罩杯看起來有C罩杯！">
     <meta name="keywords" content="luna,luna內衣,晚安內衣,美媞內衣,夜晚美胸,Luna美媞晚安內衣,小胸內衣,睡覺 內衣,睡眠 內衣">
@@ -16,7 +16,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image" content="images/02_fv.png">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- 編集削除禁止※スマホ最適化※編集削除禁止 -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
@@ -46,7 +46,7 @@
                 j = d.createElement(s), dl = l != "dataLayer" ? "&l=" + l : ""; j.async = true; j.src =
                     "//www.googletagmanager.com/gtm.js?id=" + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, "script", "dataLayer", "GTM-5DPSCTG");</script>
-    
+
     <!-- 20220208optimize -->
     <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TZBD6PR"></script>
 </head>
@@ -97,6 +97,14 @@
                     <div class="fv">
                         <img src="images/01_banner.png" alt="">
                         <img src="images/02_fv.png" alt="">
+                        <div class="luckywheel_box">
+                            <img src="images/wheel_bg.png" alt="" style="position: relative;">
+                            <img class="luckywheel_wheel" src="images/wheel_150.png" alt="" style="position: absolute;">
+                            <img class="luckywheel_text" src="images/wheel_text.png" alt="" style="position: absolute;">
+                            <img class="luckywheel_btn" src="images/wheel_btn.png" alt="" style="position: absolute;"
+                                data-toggle="modal" data-target="#exampleModal_2">
+                        </div>
+                        <img src="images/wheel_info.png" alt="">
                         <img src="images/03_sales.png" alt="">
                         <img src="images/04_set05.png" alt="">
                         <img src="images/05_data.png" alt="">
@@ -133,6 +141,41 @@
                         </li>
                     </ul>
                 </section>
+
+                <!-- Modal 抽獎優惠-->
+                <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-show="false">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">恭喜你中獎了！</h5>
+                                <button type="button" class="close wheel_close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 style="color:red">現金折抵 $150元 優惠卷</h2>
+                                <h2 style="color:red" id="copy_2">
+                                    NB150G2202
+                                </h2>
+                                <br>
+                                <a href="javascript:void(0)" onclick="copyEvent('copy_2')">
+                                    <h4>→ 點我複製代碼</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal 複製文字 -->
+                <script>
+                    function copyEvent(id) {
+                        var str = document.getElementById(id);
+                        window.getSelection().selectAllChildren(str);
+                        document.execCommand("Copy")
+                        alert("分享資訊已複製");
+                    }
+                </script>
 
                 <!-- GetButton.io widget -->
                 <div class="line_alert">
@@ -173,6 +216,18 @@
     <!-- 編集削除禁止※ACCESS　JAVASCRIPT※編集削除禁止 -->
 
     <!-- 網頁設計師編輯區塊 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/jquery-rotate.js"></script>
     <script src="js/all.js"></script>
 </body>
 
