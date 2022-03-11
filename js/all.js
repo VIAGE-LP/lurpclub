@@ -7,6 +7,12 @@ $(document).ready(function () {
         }, 900);
     });
 
+    $('a[href="#linetag"]').click(function (e) {
+        e.preventDefault();
+        $('html , body').animate({
+            scrollTop: $('#linetag').offset().top,
+        }, 900);
+    });
     // 點01_Xmas_btn會連到並"展開"id="Xmas"
     // $('.Xmas_btn').click(function (e) {
     //     e.preventDefault();
