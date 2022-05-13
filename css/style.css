@@ -269,6 +269,21 @@ img.anniversary_2{
     }
 }
 
+.linetag_box{
+    position: relative;
+    width:640px;
+    margin:0 auto;
+}
+.linetag_btn:hover{
+    opacity: 0.8; 
+}
+
+@media screen and (max-width: 768px){
+    .linetag_box{
+        width:100%;
+    }
+}
+
 .SP{
     display: none;
 }
