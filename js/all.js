@@ -7,11 +7,28 @@ $(document).ready(function () {
         }, 900);
     });
 
-    $('a[href="#linetag"]').click(function (e) {
+    $('a[href="#coupon"]').click(function (e) {
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#linetag').offset().top,
+            scrollTop: $('#coupon').offset().top,
         }, 900);
+    });
+
+    // coupon折扣
+    $('.coupon01_btn').click(function () {
+        $('#money').text(`$250`);
+        $('#coupon_money').text(`$250`);
+        $('#copy').text(`L2502206BEBN`);
+    });
+    $('.coupon02_btn').click(function () {
+        $('#money').text(`$200`);
+        $('#coupon_money').text(`$200`);
+        $('#copy').text(`L2206BE200BN`);
+    });
+    $('.coupon03_btn').click(function () {
+        $('#money').text(`$150`);
+        $('#coupon_money').text(`$150`);
+        $('#copy').text(`L2206BEBN150`);
     });
     // 點01_Xmas_btn會連到並"展開"id="Xmas"
     // $('.Xmas_btn').click(function (e) {

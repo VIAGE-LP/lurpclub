@@ -269,17 +269,18 @@ img.anniversary_2{
     }
 }
 
-.linetag_box{
+.coupon01,.coupon02,.coupon03{
     position: relative;
     width:640px;
     margin:0 auto;
 }
-.linetag_btn:hover{
+.coupon01_btn:hover,.coupon02_btn:hover,.coupon03_btn:hover{
     opacity: 0.8; 
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
-    .linetag_box{
+    .coupon01,.coupon02,.coupon03{
         width:100%;
     }
 }
