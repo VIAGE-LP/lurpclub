@@ -7,10 +7,10 @@ $(document).ready(function () {
         }, 900);
     });
 
-    $('a[href="#coupon"]').click(function (e) {
+    $('a[href="#LINEPOINT"]').click(function (e) {
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#coupon').offset().top,
+            scrollTop: $('#LINEPOINT').offset().top,
         }, 900);
     });
 
