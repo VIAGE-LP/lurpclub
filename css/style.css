@@ -269,18 +269,18 @@ img.anniversary_2{
     }
 }
 
-.coupon01,.coupon02,.coupon03{
+.coupon01,.coupon02,.coupon03,.LINEPOINT_coupon{
     position: relative;
     width:640px;
     margin:0 auto;
 }
-.coupon01_btn:hover,.coupon02_btn:hover,.coupon03_btn:hover{
+.coupon01_btn:hover,.coupon02_btn:hover,.coupon03_btn:hover,.LINEPOINT_btn:hover{
     opacity: 0.8; 
     cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
-    .coupon01,.coupon02,.coupon03{
+    .coupon01,.coupon02,.coupon03,.LINEPOINT_coupon{
         width:100%;
     }
 }
