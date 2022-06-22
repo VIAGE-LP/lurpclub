@@ -269,18 +269,40 @@ img.anniversary_2{
     }
 }
 
-.coupon01,.coupon02,.coupon03,.LINEPOINT_coupon{
+.luckywheel_box{
     position: relative;
     width:640px;
     margin:0 auto;
 }
-.coupon01_btn:hover,.coupon02_btn:hover,.coupon03_btn:hover,.LINEPOINT_btn:hover{
-    opacity: 0.8; 
+
+.luckywheel_box .luckywheel_wheel{
+    position: absolute;
+    width: 85%;
+    left: 8%;
+    top: 22.5%;
+}
+.luckywheel_box .luckywheel_btn{
+    position: absolute;
+    width: 30%;
+    top: 42%;
+    left: 35%;
     cursor: pointer;
+}
+.luckywheel_box .luckywheel_point{
+    position: absolute;
+    width: 9%;
+    top: 18%;
+    left: 46%;
+}
+.luckywheel_box .luckywheel_200{
+    position: absolute;
+    width: 31%;
+    top: 24.5%;
+    left: 35%;
 }
 
 @media screen and (max-width: 768px){
-    .coupon01,.coupon02,.coupon03,.LINEPOINT_coupon{
+    .luckywheel_box{
         width:100%;
     }
 }

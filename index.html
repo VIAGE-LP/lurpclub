@@ -12,7 +12,7 @@
         gtag('config', 'UA-186799454-1');
     </script>
 
-    <title>LUNA限時５天｜突發快閃⚡領限量購物金｜加碼再送LINE POINTS💯</title>
+    <title>LUNA年中618💯狂歡到月底！限期８天轉出好運｜中獎率100%！</title>
     <meta name="Description"
         content="日本專利設計小胸福星，輕鬆打造美胸ω歐美伽曲線，美胸不再是大CUP的專利！穿著錯誤尺寸的內衣或是受地心引力影響都會使ω歐美伽曲線變形。只是穿著Luna 晚安內衣改善了ω歐美伽曲線的長度，視覺上的效果就完全不一樣！？鈴木奈奈穿著3個月後成功讓A罩杯看起來有C罩杯！">
     <meta name="keywords" content="luna,luna內衣,晚安內衣,美媞內衣,夜晚美胸,Luna美媞晚安內衣,小胸內衣,睡覺 內衣,睡眠 內衣">
@@ -37,10 +37,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/nav.css" type="text/css" media="all">
+    <!-- <link rel="stylesheet" href="css/nav.css" type="text/css" media="all"> -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- ▲自由編集箇所▲ -->
     <!-- 編集削除禁止※ACCESS　JAVASCRIPT※編集削除禁止 -->
     <link href=/VCommonFiles/app.min.js rel=preload as=script>
@@ -79,36 +81,21 @@
                     <!-- main pc -->
                     <div class="fv">
                         <div class="banner_box">
-                            <a href="#LINEPOINT">
+                            <a href="#wheel">
                                 <img src="images/01_banner.png" alt="">
                             </a>
                         </div>
                         <img src="images/02_fv.png" alt="">
-                        <div id="LINEPOINT" class="LINEPOINT">
-                            <img src="images/LINEPOINT_5day.png" alt="">
-                            <div class="LINEPOINT_coupon" style="position: relative;">
-                                <img src="images/LINEPOINT.png" alt="">
-                                <img src="images/LINEPOINT_btn.png" alt="" class="LINEPOINT_btn" alt=""
-                                    style="position: absolute;bottom:27%;right:9%;width:25%;" data-toggle="modal"
-                                    data-target="#LINEPOINTmodal">
-                            </div>
-                        </div>
-                        <div id="coupon">
-                            <div class="coupon01" style="position: relative;">
-                                <img src="images/coupon01_no.png" alt="">
-                            </div>
-                            <div class="coupon02" style="position: relative;">
-                                <img src="images/coupon02.png" alt="">
-                                <img src="images/coupon_btn.png" class="coupon02_btn" alt=""
-                                    style="position: absolute;bottom:27%;right:9%;width:25%;" data-toggle="modal"
-                                    data-target="#couponmodal">
-                            </div>
-                            <div class="coupon03" style="position: relative;">
-                                <img src="images/coupon03.png" alt="">
-                                <img src="images/coupon_btn.png" class="coupon03_btn" alt=""
-                                    style="position: absolute;bottom:27%;right:9%;width:25%;" data-toggle="modal"
-                                    data-target="#couponmodal">
-                            </div>
+                        <div id="wheel" class="luckywheel_box">
+                            <img src="images/wheel/wheel_bg.png" alt="" style="position: relative;">
+                            <img class="luckywheel_wheel" src="images/wheel/wheel.png" alt=""
+                                style="position: absolute;">
+                            <img class="luckywheel_200 animate__animated animate__heartBeat animate__infinite"
+                                src="images/wheel/wheel_200.png" alt="" style="position: absolute;display: none;">
+                            <img class="luckywheel_point" src="images/wheel/wheel_point.png" alt=""
+                                style="position: absolute;">
+                            <img class="luckywheel_btn" src="images/wheel/wheel_btn.png" alt=""
+                                style="position: absolute;" data-toggle="modal" data-target="#exampleModal_2">
                         </div>
                         <img src="images/03_sales.png" alt="">
                         <img src="images/04_set05.png" alt="">
@@ -163,25 +150,25 @@
                     </div>
                 </div>
 
-                <!-- Modal coupon複製優惠-->
-                <div class="modal fade" id="couponmodal" tabindex="-1" role="dialog" aria-labelledby="couponLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-ml" role="document">
-                        <div class="modal-content" style="background-color: #FFEDEE;">
+                <!-- Modal 抽獎優惠-->
+                <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-show="false">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
                             <div class="modal-header">
-                                <h4 class="modal-title" id="couponLabel">恭喜您獲得<span id="money"></span>防疫生活節購物金！</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <h4 class="modal-title" id="exampleModalCenterTitle">恭喜您獲得$200防疫生活節購物金！</h4>
+                                <button type="button" class="close wheel_close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body mx-auto" style="text-align: center;">
-                                <h5>現在就複製以下優惠代碼，<br>
-                                    於購物車「優惠代碼」欄位輸入<br>
-                                    即可享網頁顯示價格再折<span id="coupon_money"></span><br>
-                                    數量有限，用完為止。</h5>
+                            <div class="modal-body">
+                                <h5>現在就複製以下優惠代碼，於購物車「優惠代碼」欄位輸入<br>
+                                    即可享網頁顯示價格再折$200！</h5>
+                                <h2 style="color:red" id="copy_2">
+                                    L2206BE200BN1
+                                </h2>
                                 <br>
-                                <h4>優惠代碼：<span id="copy"></span></h4>
-                                <a href="javascript:void(0)" onclick="copyEvent('copy')">
+                                <a href="javascript:void(0)" onclick="copyEvent('copy_2')">
                                     <h4>→點我複製優惠代碼</h4>
                                 </a>
                             </div>
@@ -198,22 +185,6 @@
                         alert("分享資訊已複製");
                     }
                 </script>
-
-                <!-- Modal LINEPOINT-->
-                <div class="modal fade" id="LINEPOINTmodal" tabindex="-1" role="dialog" aria-labelledby="LINEPOINTLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content" style="background-color: transparent;border:none;">
-                            <div class="modal-body mx-auto" style="text-align: center;">
-                                <img src="images/lottery-2.png" alt="" style="width:100%;position: relative;">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
-                                    style="position: absolute;top:7%;right:8%;">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- ▲自由編集箇所▲ -->
             </div>
             <!-- contents_standard End -->
