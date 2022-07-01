@@ -7,41 +7,41 @@ $(document).ready(function () {
         }, 900);
     });
 
-    $('a[href="#wheel"]').click(function (e) {
-        e.preventDefault();
-        $('html , body').animate({
-            scrollTop: $('#wheel').offset().top,
-        }, 900);
-    });
+    // $('a[href="#wheel"]').click(function (e) {
+    //     e.preventDefault();
+    //     $('html , body').animate({
+    //         scrollTop: $('#wheel').offset().top,
+    //     }, 900);
+    // });
 
-    $(".luckywheel_btn").click(function (e) {
-        e.preventDefault();
-        $('.luckywheel_wheel').rotate({
-            // angle: 0, // 旋轉指定角度(沒有動畫)
-            animateTo: 2160, // 旋轉指定角度(有動畫)
-            // duration: 1000, // 動畫持續時間
-            // bind: {}, // 綁定事件
-            // step: function () { }, // 在動畫每一步都會執行
-            callback: function(){   
-                $("#exampleModal_2").attr({
-                    style: "display: block;"
-                }); 
-                $("body").addClass("modal-open");
-                $("#exampleModal_2").addClass("show");
-                $(".luckywheel_box .luckywheel_200").attr({
-                    style: "display: block;"
-                }); 
-            }// 完成後執行
-        });
-    });
-    $("button.wheel_close").click(function (e) { 
-        e.preventDefault();
-        $("#exampleModal_2").attr({
-            style: "display: none;"
-        }); 
-        $("body").removeClass("modal-open");
-        $("#exampleModal_2").addClass("hide");
-    });
+    // $(".luckywheel_btn").click(function (e) {
+    //     e.preventDefault();
+    //     $('.luckywheel_wheel').rotate({
+    //         // angle: 0, // 旋轉指定角度(沒有動畫)
+    //         animateTo: 2160, // 旋轉指定角度(有動畫)
+    //         // duration: 1000, // 動畫持續時間
+    //         // bind: {}, // 綁定事件
+    //         // step: function () { }, // 在動畫每一步都會執行
+    //         callback: function(){   
+    //             $("#exampleModal_2").attr({
+    //                 style: "display: block;"
+    //             }); 
+    //             $("body").addClass("modal-open");
+    //             $("#exampleModal_2").addClass("show");
+    //             $(".luckywheel_box .luckywheel_200").attr({
+    //                 style: "display: block;"
+    //             }); 
+    //         }// 完成後執行
+    //     });
+    // });
+    // $("button.wheel_close").click(function (e) { 
+    //     e.preventDefault();
+    //     $("#exampleModal_2").attr({
+    //         style: "display: none;"
+    //     }); 
+    //     $("body").removeClass("modal-open");
+    //     $("#exampleModal_2").addClass("hide");
+    // });
     // 點01_Xmas_btn會連到並"展開"id="Xmas"
     // $('.Xmas_btn').click(function (e) {
     //     e.preventDefault();
