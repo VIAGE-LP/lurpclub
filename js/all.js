@@ -7,12 +7,23 @@ $(document).ready(function () {
         }, 900);
     });
 
-    // $('a[href="#wheel"]').click(function (e) {
-    //     e.preventDefault();
-    //     $('html , body').animate({
-    //         scrollTop: $('#wheel').offset().top,
-    //     }, 900);
-    // });
+    $('a[href="#LINEPOINT"]').click(function (e) {
+        e.preventDefault();
+        $('html , body').animate({
+            scrollTop: $('#LINEPOINT').offset().top,
+        }, 900);
+    });
+
+    // 點buybtn會連到並"展開"id="luna-set_SP"
+    $('a[href="#luna-set_SP"]').click(function (e) {
+        e.preventDefault();
+        $("#luna-set_SP").attr("style", "display:block;");
+        $('html , body').animate({
+            scrollTop: $('#luna-set_SP').offset().top,
+        }, 900);
+    });
+
+    
 
     // $(".luckywheel_btn").click(function (e) {
     //     e.preventDefault();
@@ -42,14 +53,7 @@ $(document).ready(function () {
     //     $("body").removeClass("modal-open");
     //     $("#exampleModal_2").addClass("hide");
     // });
-    // 點01_Xmas_btn會連到並"展開"id="Xmas"
-    // $('.Xmas_btn').click(function (e) {
-    //     e.preventDefault();
-    //     $(".Xmas").attr("style", "display:block;");
-    //     $('html , body').animate({
-    //         scrollTop: $('#Xmas').offset().top,
-    //     }, 900);
-    // });
+    
 
     //週年慶活動辦法下拉選單
     // $(".anniversary_2").hide();
