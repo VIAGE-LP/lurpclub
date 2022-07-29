@@ -7,12 +7,12 @@ $(document).ready(function () {
         }, 900);
     });
 
-    $('a[href="#LINEPOINT"]').click(function (e) {
-        e.preventDefault();
-        $('html , body').animate({
-            scrollTop: $('#LINEPOINT').offset().top,
-        }, 900);
-    });
+    // $('a[href="#LINEPOINT"]').click(function (e) {
+    //     e.preventDefault();
+    //     $('html , body').animate({
+    //         scrollTop: $('#LINEPOINT').offset().top,
+    //     }, 900);
+    // });
 
     // 點buybtn會連到並"展開"id="luna-set_SP"
     $('a[href="#luna-set_SP"]').click(function (e) {
